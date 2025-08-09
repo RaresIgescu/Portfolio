@@ -4,10 +4,11 @@ import { TitleHeroComponent } from "./title-hero/title-hero.component";
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { SecondHeroComponent } from "./second-hero/second-hero.component";
+import { WorkComponent } from './work/work.component';
 
 @Component({
   selector: 'app-root',
-  imports: [TitleHeroComponent, HeaderComponent, FooterComponent, SecondHeroComponent],
+  imports: [TitleHeroComponent, HeaderComponent, FooterComponent, SecondHeroComponent, WorkComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
