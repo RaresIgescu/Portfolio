@@ -1,15 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TitleHeroComponent } from "./title-hero/title-hero.component";
-import { HeaderComponent } from "./header/header.component";
-import { FooterComponent } from "./footer/footer.component";
-import { SecondHeroComponent } from "./second-hero/second-hero.component";
-import { WorkComponent } from './work/work.component';
-import { FormComponent } from "./form/form.component";
+import { HomeComponent } from "./home/home.component";
 
 @Component({
   selector: 'app-root',
-  imports: [TitleHeroComponent, HeaderComponent, FooterComponent, SecondHeroComponent, WorkComponent, FormComponent],
+  imports: [HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
