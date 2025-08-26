@@ -6,6 +6,7 @@ import { importProvidersFrom, NgModule } from '@angular/core';
 export const routes: Routes = [
     { path: '', component: HomeComponent},
     { path: 'projects', component: ProjectsComponent},
+    { path: 'home', component: HomeComponent}
 ];
 
 export const appConfigProviders = [
