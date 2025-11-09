@@ -5,8 +5,8 @@
             <p class="lead text-body-secondary">
                 These projects reflect my work throughout my academic, professional, and personal journey. All of them are available on GitHub, and I am always open to discussing them further.
             </p> 
-            <button mat-flat-button color="primary" class="mx-2">See my GitHub</button>
-            <button mat-stroked-button color="primary">Arrange a meeting</button>
+            <button (click)="goToExternal()" mat-flat-button color="primary" class="mx-2">See my GitHub</button>
+            <button (click)="goToHomeSection('contact')" mat-stroked-button color="primary">Arrange a meeting</button>
         </div> 
     </div> 
 </section>
