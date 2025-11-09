@@ -9,5 +9,10 @@ import { MatIcon } from '@angular/material/icon';
   styleUrl: './second-hero.component.scss'
 })
 export class SecondHeroComponent {
-
+  scrollToContact() {
+    const contactSection = document.getElementById('contact');
+    if(contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth'});
+    }
+  }
 }
