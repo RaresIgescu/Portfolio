@@ -12,6 +12,7 @@ bootstrapApplication(AppComponent, {
       routes,
       withInMemoryScrolling({
         anchorScrolling: 'enabled',
+        scrollPositionRestoration: 'top',
       })
     )
   ]
