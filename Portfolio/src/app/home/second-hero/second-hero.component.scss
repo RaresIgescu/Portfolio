@@ -1,9 +1,16 @@
 .mask {
   background: linear-gradient(to bottom, rgb(232, 232, 250), #ffffff);
+  position: relative; 
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .custom-hero {
-  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  overflow: visible; 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
