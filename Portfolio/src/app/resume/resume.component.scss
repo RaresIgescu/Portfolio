@@ -1,0 +1,66 @@
+h2.display-6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: #111;
+  border-bottom: 2px solid #4b4cac !important;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #111;
+  text-decoration: none !important;
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(75, 76, 172, 0.2);
+  margin-bottom: 1.25rem !important;
+}
+
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #222 !important;
+}
+
+p, li {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: #444;
+}
+
+.text-muted.small {
+  font-size: 0.8rem !important;
+  color: #888 !important;
+}
+
+// Progress bars
+.progress {
+  border-radius: 99px;
+  background: #ececf5;
+}
+
+.progress-bar {
+  border-radius: 99px;
+
+  &.bg-primary { background-color: #4b4cac !important; }
+  &.bg-success { background-color: #22c55e !important; }
+  &.bg-warning { background-color: #f59e0b !important; }
+}
+
+// PDF card
+.card.border-0 {
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.09) !important;
+
+  .card-header.bg-primary {
+    background: #4b4cac !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.85rem 1.25rem;
+  }
+}
